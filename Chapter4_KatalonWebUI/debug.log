@@ -1,0 +1,7 @@
+[1130/162239.555:ERROR:process_info.cc(359)] UncheckedAllocate
+[1130/162239.555:ERROR:process_info.cc(359)] UncheckedAllocate
+[1130/162239.888:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\thang\AppData\Local\Temp\scoped_dir11392_874361340\Crashpad\attachments\a754390a-8ad2-4fbb-9c58-c78bf7569095: The system cannot find the path specified. (0x3)
+[1130/165945.943:ERROR:process_info.cc(359)] UncheckedAllocate
+[1130/165945.984:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\thang\AppData\Local\Temp\scoped_dir12792_205905425\Crashpad\attachments\03233f25-a8b7-4f16-b19c-5293d0249265: The system cannot find the path specified. (0x3)
+[1130/165946.348:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[1203/083311.317:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

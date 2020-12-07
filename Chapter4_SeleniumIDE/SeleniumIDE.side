@@ -1,0 +1,165 @@
+{
+  "id": "4488d670-7e0e-47d4-afbb-5fd287316616",
+  "version": "2.0",
+  "name": "tiki",
+  "url": "https://tiki.vn",
+  "tests": [{
+    "id": "0f3c2b74-2c6a-4338-80ab-605ae1e0193d",
+    "name": "tiki1",
+    "commands": [{
+      "id": "4755faa1-b7af-4fb2-b0e0-42d8333f4df8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8047cd01-0f6d-4152-a050-47507eadf2dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b078254d-60e7-4dd5-bfff-72a06465cd6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa021cde-8940-44d9-9aab-54a99c1dbe88",
+      "comment": "",
+      "command": "type",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='book']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "book"
+    }, {
+      "id": "b48ea427-4a98-487b-8a32-01426c23b3dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='book']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3f72530e-0a36-4691-838c-27fbc5fc217e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(6) .thumbnail > img",
+      "targets": [
+        ["css=.product-item:nth-child(6) .thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Usborne Bộ Tím The Usborne Reading Collection for Confident Readers - x40 book boxed set']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[2]/div/div[2]/a[6]/span/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[6]/span/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a06b6f2c-7cb7-4103-8e99-57e3ffbdc894",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1.title",
+      "targets": [],
+      "value": "Usborne Bộ Tím The Usborne Reading Collection for Confident Readers - x40 book boxed set"
+    }, {
+      "id": "bbac3ed1-d144-4a49-85ba-72c3fb252dde",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.input",
+      "targets": [
+        ["css=.input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[3]/div[2]/div/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa3d282-e03a-4479-a692-0735c9a614ea",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input",
+      "targets": [
+        ["css=.input", "css:finder"],
+        ["xpath=//input[@value='2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[3]/div[2]/div/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "82ce1a19-66d4-4713-8e1c-1a886f631f9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[3]/div[2]/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d33cb41c-a74c-410c-9eb0-b7f570c17c63",
+      "comment": "",
+      "command": "//waitForText",
+      "target": "css=.bDWZEC",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "dab46cd5-a9d3-4892-9f3f-2f32a9c36a66",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bDWZEC",
+      "targets": [],
+      "value": "2"
+    }, {
+      "id": "2a420e4f-033a-485a-a941-66888040b9f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dFYIFY > .Userstyle__ItemText-sc-6e6am-2",
+      "targets": [
+        ["css=.dFYIFY > .Userstyle__ItemText-sc-6e6am-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div/div[2]/div[3]/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Giỏ hàng2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd950d22-1fff-4910-af72-30ae0bdcc216",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cart-products__name",
+      "targets": [],
+      "value": "Usborne Bộ Tím The Usborne Reading Collection for Confident Readers - x40 book boxed set"
+    }, {
+      "id": "645e15a6-2b26-4c3e-8dcf-c55768d4119a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0349ee62-a4e7-4ad3-aa02-2fcc496460ae",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f3c2b74-2c6a-4338-80ab-605ae1e0193d"]
+  }],
+  "urls": ["https://tiki.vn/"],
+  "plugins": []
+}

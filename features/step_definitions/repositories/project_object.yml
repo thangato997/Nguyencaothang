@@ -1,0 +1,4 @@
+button: { css: ".fa" }
+user: { css: "#username" }
+pass: { css: "#password" }
+text: { css: "#flash" }

@@ -1,0 +1,5 @@
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+ie: BROWSER=internet_explorer
+parallel: parallel_cucumber
+fe: find_element
